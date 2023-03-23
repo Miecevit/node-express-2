@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./inc/head') %>
+</head>
+<body>
+    <form method="POST" action="/form_cevap">
+        <div class="mb-3">
+            <label for="username" class="form-label">Kullanıcı Adı:</label>
+            <input type="text" class="form-control" id="username" name="username"/>
+            <label for="sifre" class="form-label">Sifre:</label>
+            <input type="password" class="form-control" id="sifre" name="sifre"/>
+            <input type="submit" class="btn btn-primary" id="submit_btn"/>
+        </div>
+    </form>
+</body>
+</html>
